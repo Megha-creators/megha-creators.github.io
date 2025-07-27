@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Day 6 - Forms</title>
+  </head>
+  <body>
+    <h1>Day 6: HTML Forms</h1>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
