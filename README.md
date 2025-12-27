@@ -12,5 +12,5 @@ It demonstrates my skills in **HTML, CSS, and basic JavaScript**.
 - **JavaScript Project** – Interactive features  
 
 ## Contact
-- Email: your-email@example.com  
+-Email:meghanathakkuri@gmail.com 
 - GitHub: [Megha-creators](https://github.com/Megha-creators)
