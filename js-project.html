@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Project</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .counter-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #count {
+            font-size: 30px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>JavaScript Project</h1>
+        <p>Simple counter using JavaScript</p>
+    </header>
+
+    <div class="counter-container">
+        <button onclick="decrement()">-</button>
+        <button onclick="increment()">+</button>
+        <div id="count">0</div>
+    </div>
+
+    <script>
+        let count = 0;
+        const display = document.getElementById("count");
+
+        function increment() {
+            count++;
+            display.textContent = count;
+        }
+
+        function decrement() {
+            count--;
+            display.textContent = count;
+        }
+    </script>
+</body>
+</html>
