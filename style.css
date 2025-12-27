@@ -1,11 +1,16 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+.navbar {
+  background-color: #111;
+  text-align: center;
+  padding: 12px 0;
 }
 
-.header {
-  background-color: #1e90ff;
+.navbar a {
   color: white;
-  text-align: center;
-  padding: 40px 0;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #1e90ff;
 }
