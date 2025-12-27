@@ -1,46 +1,143 @@
-.contact {
-  background-color: #f9f9f9;
-  padding: 40px 10px;
-  text-align: center;
+/* General body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
 }
 
-.contact a {
-  color: #1e90ff;
-  text-decoration: none;
+/* Navbar styling */
+.navbar {
+    background-color: #111;
+    text-align: center;
+    padding: 12px 0;
 }
 
-.contact a:hover {
-  text-decoration: underline;
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
 }
 
-footer {
-  background-color: #111;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-  margin-top: 40px;
+.navbar a:hover {
+    color: #1e90ff;
 }
-/* Responsive Design */
-@media (max-width: 768px) {
-  .cards {
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .card {
-    width: 90%;
-    margin-bottom: 20px;
-  }
-
-  .navbar a {
-    display: block;
-    margin: 10px 0;
-  }
+/* Header styling */
+.header {
+    background-color: #1f2a36;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
 }
+
 .header h1 {
-  transition: color 0.3s;
+    margin: 0;
+    font-size: 2.5em;
+    transition: color 0.3s;
 }
 
 .header h1:hover {
-  color: #1e90ff;
+    color: #1e90ff;
+}
+
+.header p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+/* Projects section */
+.projects {
+    padding: 40px 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.projects h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 220px;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Contact section */
+.contact {
+    background-color: #f4f6f8;
+    padding: 40px 10px;
+    text-align: center;
+}
+
+.contact a {
+    color: #1e90ff;
+    text-decoration: none;
+    transition: text-decoration 0.3s;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 10px 0;
+    }
 }
