@@ -14,3 +14,9 @@
 .navbar a:hover {
   color: #1e90ff;
 }
+.header {
+  background: #1f2a36;
+  color: white;
+  text-align: center;
+  padding: 40px 10px;
+}
